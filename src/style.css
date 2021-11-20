@@ -1,0 +1,49 @@
+body {
+  width: 550px;
+
+  margin: 150px auto;
+}
+
+h1 {
+  font-size: 60px;
+  margin-top: 80px;
+  margin-bottom: -1px;
+}
+
+h2 {
+  margin: 0px auto;
+}
+
+form {
+  float: right;
+  margin: 10px 0px 100px 0px;
+}
+
+.search-button {
+  text-align: center;
+}
+
+.unit {
+  font-size: 20px;
+}
+
+.container {
+  border: solid lightgrey 1px;
+  border-radius: 4px;
+  background: lightskyblue;
+  color: #ffff;
+}
+
+.card-body {
+  text-align: center;
+}
+
+#celsius {
+  text-decoration: none;
+  color: #ffff;
+}
+
+#fahrenheit {
+  text-decoration: none;
+  color: #ffff;
+}
