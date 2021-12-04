@@ -1,22 +1,28 @@
 body {
-  width: 550px;
-
-  margin: 150px auto;
+  max-width: 600px;
+  margin: 30px auto;
+  padding: 20px;
 }
 
 h1 {
   font-size: 60px;
   margin-top: 80px;
   margin-bottom: -1px;
+  padding-left: 16px;
 }
 
 h2 {
   margin: 0px auto;
+  padding-left: 16px;
 }
 
 form {
   float: right;
   margin: 0px 0px 100px 0px;
+}
+
+li {
+  list-style: none;
 }
 
 .location-button {
@@ -42,20 +48,24 @@ form {
   padding: 20px;
 }
 
-.extra {
-  list-style: none;
-}
-
 .card-body {
   text-align: center;
 }
 
-#celsius {
-  text-decoration: none;
-  color: #ffff;
+.currentDay {
+  padding-left: 16px;
 }
 
-#fahrenheit {
+.dayForcast {
+  padding-left: 16px;
+}
+
+.extra {
+  float: right;
+  padding-right: 16px;
+}
+
+#celsius {
   text-decoration: none;
   color: #ffff;
 }

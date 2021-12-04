@@ -41,6 +41,11 @@ function displayWeatherCondition(response) {
   let description = response.data.weather[0].main;
   let dayForcast = document.querySelector(".dayForcast");
   dayForcast.innerHTML = `${description}`;
+
+  document.querySelector("#humidity").innerHTML = response.data.main.humidity;
+  document.querySelector("#wind").innerHTML = Math.round(
+    response.data.wind.speed
+  );
 }
 
 //Display search-input city in header
