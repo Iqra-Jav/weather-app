@@ -21,6 +21,7 @@
 
   <body>
     <div class="container">
+      <button class="location-button">⌖</button>
       <form id="search-form">
         <div class="row">
           <div class="col-9">
@@ -39,17 +40,22 @@
       </form>
       <br />
       <h1>
-        <span id="temperature">16°</span>
-        <span class="unit">
-          <a href="#" id="celsius">°C </a>|<a href="#" id="fahrenheit"
-            >°F</a
-          ></span
-        >
+        <span id="temperature">16</span>
+        <span class="unit"> <a href="#" id="celsius">C </a></span>
       </h1>
-
-      <h2>San Francisco</h2>
-      <div class="currentDay">day</div>
-      <div class="dayForcast">Partly Cloudy</div>
+      <h2 id="city"></h2>
+      <div class="row">
+        <div class="col-6">
+          <div class="currentDay">day</div>
+          <div class="dayForcast"></div>
+        </div>
+        <div class="col-6 extra">
+          <ul>
+            <li>Humidity: 0%</li>
+            <li>Wind: 83%</li>
+          </ul>
+        </div>
+      </div>
 
       <br />
 

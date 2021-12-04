@@ -16,7 +16,14 @@ h2 {
 
 form {
   float: right;
-  margin: 10px 0px 100px 0px;
+  margin: 0px 0px 100px 0px;
+}
+
+.location-button {
+  margin: 5px -10px 0 190px;
+  color: #ffff;
+  border: none;
+  background-color: transparent;
 }
 
 .search-button {
@@ -30,8 +37,13 @@ form {
 .container {
   border: solid lightgrey 1px;
   border-radius: 4px;
-  background: lightskyblue;
+  background: rgb(115, 115, 145);
   color: #ffff;
+  padding: 20px;
+}
+
+.extra {
+  list-style: none;
 }
 
 .card-body {
