@@ -26,6 +26,29 @@ if (minutes < 10) {
 let dateTime = document.querySelector(".currentDay");
 dateTime.innerHTML = `${day}, ${hours}:${minutes}`;
 
+function displayForecast() {
+  let forecastElement = document.querySelector("#forecast");
+
+  let forecastHTML = `<div class="row">`;
+  let days = ["MON", "TUE", "WED", "THURS"];
+  days.forEach(function (day) {
+    forecastHTML =
+      forecastHTML +
+      `
+     <div class="col-2 card-body">
+       <div class="forecast-temperature">18°</div> 
+        <br />
+        <div class="weather-icon"><i class="fas fa-cloud"></i></div>
+        <br />
+        <div class="day">${day}</div>
+     </div>
+  `;
+  });
+
+  forecastHTML = forecastHTML + `</div>`;
+  forecastElement.innerHTML = forecastHTML;
+}
+
 function searchCity(city) {
   let apiKey = `9802d88f6dd188634b8362bf8e2349da`;
   let apiUrl = `https://api.openweathermap.org/data/2.5/weather?q=${city}&units=metric&appid=${apiKey}`;
@@ -72,3 +95,4 @@ let currentLocationButton = document.querySelector(".location-button");
 currentLocationButton.addEventListener("click", getCurrentLocation);
 
 searchCity("New York");
+displayForecast();
