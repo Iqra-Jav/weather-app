@@ -8,7 +8,7 @@ const icons = {
 
   "01n": "fas fa-moon",
 
-  "02n": "fas fa-cloud-moon",
+  "02n": "fas fa-cloud",
 
   "03d": "fas fa-cloud",
 
@@ -22,9 +22,9 @@ const icons = {
 
   "09n": "fas fa-cloud-showers-heavy",
 
-  "10d": "fas fa-cloud-sun-rain",
+  "10d": "fas fa-cloud-rain",
 
-  "10n": "fas fa-cloud-moon-rain",
+  "10n": "fas fa-cloud-rain",
 
   "11d": "fas fa-bolt",
 
