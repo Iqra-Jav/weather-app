@@ -8,10 +8,12 @@ h1 {
   font-size: 60px;
   margin-top: 80px;
   margin-bottom: -1px;
+  padding-left: 16px;
 }
 
 h2 {
   margin: 0px auto;
+  padding-left: 16px;
 }
 
 form {
@@ -46,12 +48,21 @@ li {
   padding: 20px;
 }
 
+.currentDay {
+  padding-left: 16px;
+}
+
+.dayForcast {
+  padding-left: 16px;
+}
+
 .card-body {
   text-align: center;
 }
 
 .extra {
   float: right;
+  padding-right: 16px;
 }
 
 #celsius {
